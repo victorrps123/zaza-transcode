@@ -1,0 +1,8 @@
+music.zaza.run {
+  root * /root/zaza-transcode/src/app/audios
+  file_server
+
+  tls <CF EMAIL> {
+    dns cloudflare <CF KEY>
+  }
+}
